@@ -1,27 +1,19 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
 
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { StyleSheet } from "react-native";
 
-import HomeScreen from "./screens/HomeScreen";
-import WelcomeScreen from "./screens/WelcomeScreen";
+import MainApp from "./MainApp";
 import { Provider } from "react-redux";
 import { persistor, store } from "./redux/store";
 import { PersistGate } from "redux-persist/integration/react";
-
-const Stack = createNativeStackNavigator();
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
 export default function App() {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <NavigationContainer>
-          <Stack.Navigator>
-            <Stack.Screen name="Welcome" component={WelcomeScreen} />
-            <Stack.Screen name="Home" component={HomeScreen} />
-          </Stack.Navigator>
-        </NavigationContainer>
+        <SafeAreaProvider>
+          <MainApp />
+        </SafeAreaProvider>
       </PersistGate>
     </Provider>
   );
