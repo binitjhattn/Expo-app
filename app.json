@@ -14,8 +14,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": ["expo-apple-authentication"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "usesAppleSignIn": true
     },
     "android": {
       "adaptiveIcon": {
