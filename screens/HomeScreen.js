@@ -13,14 +13,15 @@
 
 import { View, StyleSheet } from 'react-native';
 
-import {AppleLogin, Application, Asset} from '../components';
+import {AppleLogin, Application, Asset, AsyncStorage} from '../components';
 
 export default function App() {
   return (
    <View style={styles.container}>
      {/* <AppleLogin /> */}
      {/* <Application /> */}
-     <Asset />
+     {/* <Asset /> */}
+     <AsyncStorage />
    </View>
   );
 }
