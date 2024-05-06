@@ -10,9 +10,9 @@ const AsyncStorageComponent = () => {
   const setValue = async () => {
     try {
       await AsyncStorage.setItem("my-key", "value-updated");
-      Alert.alert('updated-successfully');
+      alert('updated-successfully');
     } catch (e) {
-        Alert.alert('Saving error');
+      alert('Saving error');
       // saving error
     }
   };
