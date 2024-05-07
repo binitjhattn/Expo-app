@@ -6,6 +6,7 @@ import Audio from "./Audio";
 import Video from "./Video";
 import BackgroundFetch from "./BackgroundFetch";
 import Barometer from "./Barometer";
+import Battery from './Battery';
 
 export {
   AppleLogin,
@@ -16,4 +17,5 @@ export {
   Video,
   BackgroundFetch,
   Barometer,
+  Battery,
 };
