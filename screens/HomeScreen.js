@@ -13,7 +13,7 @@
 
 import { View, StyleSheet } from 'react-native';
 
-import {AppleLogin, Application, Asset, AsyncStorage, Audio, Video} from '../components';
+import {AppleLogin, Application, Asset, AsyncStorage, Audio, Video, BackgroundFetch} from '../components';
 
 export default function App() {
   return (
@@ -23,7 +23,8 @@ export default function App() {
      {/* <Asset /> */}
      {/* <AsyncStorage /> */}
      {/* <Audio /> */}
-     <Video />
+     {/* <Video /> */}
+     <BackgroundFetch />
    </View>
   );
 }

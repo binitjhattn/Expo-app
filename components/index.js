@@ -4,5 +4,6 @@ import Asset from "./Asset";
 import AsyncStorage from "./AsyncStorage";
 import Audio from "./Audio";
 import Video from './Video';
+import BackgroundFetch from "./BackgroundFetch";
 
-export {AppleLogin, Application, Asset, AsyncStorage, Audio, Video };
+export {AppleLogin, Application, Asset, AsyncStorage, Audio, Video, BackgroundFetch };
