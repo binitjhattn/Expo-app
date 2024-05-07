@@ -13,7 +13,7 @@
 
 import { View, StyleSheet } from 'react-native';
 
-import {AppleLogin, Application, Asset, AsyncStorage, Audio, Video, BackgroundFetch, Barometer, Battery} from '../components';
+import {AppleLogin, Application, Asset, AsyncStorage, Audio, Video, BackgroundFetch, Barometer, Battery, BlurView} from '../components';
 
 export default function App() {
   return (
@@ -26,7 +26,8 @@ export default function App() {
      {/* <Video /> */}
      {/* <BackgroundFetch /> */}
      {/* <Barometer /> */}
-     <Battery />
+     {/* <Battery /> */}
+     <BlurView />
    </View>
   );
 }

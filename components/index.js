@@ -7,6 +7,7 @@ import Video from "./Video";
 import BackgroundFetch from "./BackgroundFetch";
 import Barometer from "./Barometer";
 import Battery from './Battery';
+import BlurView from './BlurView';
 
 export {
   AppleLogin,
@@ -18,4 +19,5 @@ export {
   BackgroundFetch,
   Barometer,
   Battery,
+  BlurView,
 };
