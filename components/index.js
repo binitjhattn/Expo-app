@@ -9,6 +9,7 @@ import Barometer from "./Barometer";
 import Battery from './Battery';
 import BlurView from './BlurView';
 import Brightness from './Brightness';
+import Calendar from './Calendar';
 
 export {
   AppleLogin,
@@ -22,4 +23,5 @@ export {
   Battery,
   BlurView,
   Brightness,
+  Calendar,
 };

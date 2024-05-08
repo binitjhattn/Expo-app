@@ -11,10 +11,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      "expo-apple-authentication",
+      ["expo-calendar",
+      {
+        "calendarPermission": "The app needs to access your calendar."
+      }]
     ],
-    "plugins": ["expo-apple-authentication"],
     "ios": {
       "supportsTablet": true,
       "usesAppleSignIn": true,
