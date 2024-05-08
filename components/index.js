@@ -8,6 +8,7 @@ import BackgroundFetch from "./BackgroundFetch";
 import Barometer from "./Barometer";
 import Battery from './Battery';
 import BlurView from './BlurView';
+import Brightness from './Brightness';
 
 export {
   AppleLogin,
@@ -20,4 +21,5 @@ export {
   Barometer,
   Battery,
   BlurView,
+  Brightness,
 };
