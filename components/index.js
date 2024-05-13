@@ -10,6 +10,12 @@ import Battery from './Battery';
 import BlurView from './BlurView';
 import Brightness from './Brightness';
 import Calendar from './Calendar';
+import Camera from './Camera';
+import CaptureRef from "./CaptureRef";
+import CheckBox from './CheckBox';
+import ClipBoard from './ClipBoard';
+import Contacts from './Contacts';
+import Crypto from './Crypto';
 
 export {
   AppleLogin,
@@ -24,4 +30,10 @@ export {
   BlurView,
   Brightness,
   Calendar,
+  Camera,
+  CaptureRef,
+  CheckBox,
+  ClipBoard,
+  Contacts,
+  Crypto,
 };

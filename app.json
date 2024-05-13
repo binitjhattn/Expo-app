@@ -14,10 +14,26 @@
     "assetBundlePatterns": ["**/*"],
     "plugins": [
       "expo-apple-authentication",
-      ["expo-calendar",
-      {
-        "calendarPermission": "The app needs to access your calendar."
-      }]
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "The app needs to access your calendar."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
+        }
+      ]
     ],
     "ios": {
       "supportsTablet": true,
