@@ -33,6 +33,12 @@
         {
           "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
         }
+      ],
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
       ]
     ],
     "ios": {

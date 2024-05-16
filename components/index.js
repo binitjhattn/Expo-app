@@ -16,6 +16,8 @@ import CheckBox from './CheckBox';
 import ClipBoard from './ClipBoard';
 import Contacts from './Contacts';
 import Crypto from './Crypto';
+import Device from './Device';
+import DocumentPicker from "./DocumentPicker";
 
 export {
   AppleLogin,
@@ -36,4 +38,6 @@ export {
   ClipBoard,
   Contacts,
   Crypto,
+  Device,
+  DocumentPicker,
 };
