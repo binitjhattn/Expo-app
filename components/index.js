@@ -19,6 +19,8 @@ import Crypto from './Crypto';
 import Device from './Device';
 import DocumentPicker from "./DocumentPicker";
 import FlashList from "./FlashList";
+import GLView from "./GlView";
+import Gyroscope from "./Gyroscope";
 
 export {
   AppleLogin,
@@ -42,4 +44,6 @@ export {
   Device,
   DocumentPicker,
   FlashList,
+  GLView,
+  Gyroscope,
 };

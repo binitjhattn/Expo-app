@@ -13,7 +13,7 @@
 
 import { View, StyleSheet } from 'react-native';
 
-import {AppleLogin, Application, Asset, AsyncStorage, Audio, Video, BackgroundFetch, Barometer, Battery, BlurView, Brightness, Calendar, Camera, CaptureRef, CheckBox, ClipBoard, Contacts, Crypto, Device, DocumentPicker, FlashList} from '../components';
+import {AppleLogin, Application, Asset, AsyncStorage, Audio, Video, BackgroundFetch, Barometer, Battery, BlurView, Brightness, Calendar, Camera, CaptureRef, CheckBox, ClipBoard, Contacts, Crypto, Device, DocumentPicker, FlashList, GLView, Gyroscope} from '../components';
 
 export default function App() {
   return (
@@ -39,6 +39,8 @@ export default function App() {
      {/* <Device /> */}
      {/* <DocumentPicker /> */}
      {/* <FlashList /> */}
+     {/* <GLView /> */}
+     <Gyroscope />
    </View>
   );
 }
