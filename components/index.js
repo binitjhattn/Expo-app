@@ -18,6 +18,7 @@ import Contacts from './Contacts';
 import Crypto from './Crypto';
 import Device from './Device';
 import DocumentPicker from "./DocumentPicker";
+import FlashList from "./FlashList";
 
 export {
   AppleLogin,
@@ -40,4 +41,5 @@ export {
   Crypto,
   Device,
   DocumentPicker,
+  FlashList,
 };
