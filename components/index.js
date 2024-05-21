@@ -21,6 +21,8 @@ import DocumentPicker from "./DocumentPicker";
 import FlashList from "./FlashList";
 import GLView from "./GlView";
 import Gyroscope from "./Gyroscope";
+import Haptics from './Haptics';
+import Image from './Image';
 
 export {
   AppleLogin,
@@ -46,4 +48,6 @@ export {
   FlashList,
   GLView,
   Gyroscope,
+  Haptics,
+  Image,
 };
