@@ -23,6 +23,7 @@ import GLView from "./GlView";
 import Gyroscope from "./Gyroscope";
 import Haptics from './Haptics';
 import Image from './Image';
+import ImageManipulation from "./ImageManipulation";
 
 export {
   AppleLogin,
@@ -50,4 +51,5 @@ export {
   Gyroscope,
   Haptics,
   Image,
+  ImageManipulation,
 };
